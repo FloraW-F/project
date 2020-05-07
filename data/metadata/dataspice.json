@@ -1,0 +1,231 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "Woody plant vegetation structure",
+  "creator": [
+    {
+      "type": "Person",
+      "id": null,
+      "givenName": "Flora",
+      "familyName": "Whiting-Fawcett",
+      "email": "f.whiting-fawcett@liverpool.ac.uk",
+      "affiliation": "University of Liverpool"
+    }
+  ],
+  "description": "Structure measurements, including height, canopy diameter, and stem diameter, as well as mapped position of individual woody plants",
+  "datePublished": "2019-08-06",
+  "keywords": ["shrubs", "productivity", "canopy height", "plants", "saplings", "plant productivity", "trees", "woody plants", "carbon cycle", "vegetation", "net primary productivity (NPP)", "lianas", "vegetation structure", "biomass", "production", "tree height", "annual net primary productivity (ANPP)"],
+  "funder": null,
+  "temporalCoverage": "NA/NA",
+  "license": "CC-0",
+  "spatialCoverage": {
+    "type": "Place",
+    "name": "These data are collected at all NEON terrestrial sites at which qualifying smaller woody individuals (individuals with DBH < 10 cm) are present at 10% cover or greater, or when larger individuals (individuals with DBH ≥ 10 cm) are present in 10% or more of designated plots . Functionally, sampling occurs at forested sites, and sites with shrub/scrub vegetation.",
+    "geo": {
+      "type": "GeoShape",
+      "box": "NA NA NA NA"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "uid",
+      "description": "Unique ID within NEON database; an identifier for the record"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "named_location",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "date",
+      "description": "Date or date and time of measurement, observation, or collection event"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "event_id",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "domain_id",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "site_id",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "plot_id",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "individual_id",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "growth_form",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "stem_diameter",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "measurement_height",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "meter",
+      "name": "height",
+      "description": "Highest point of an individual or average height of a patch"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "uid_map",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "point_id",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "stem_distance",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "stem_azimuth",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "taxon_id",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "scientific_name",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "taxon_rank",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "uid_ppl",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "plot_type",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "nlcd_class",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "decimal_latitude",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "decimal_longitude",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "geodetic_datum",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "meter",
+      "name": "easting",
+      "description": "Geographic coordinate specifying the east-west position of a point on the Earth's surface (Universal Transverse Mercator, UTM)"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "meter",
+      "name": "northing",
+      "description": "Geographic coordinate specifying the north-south position of a point on the Earth's surface (Universal Transverse Mercator, UTM)"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "utm_zone",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "meter",
+      "name": "elevation",
+      "description": "Elevation (in meters) above sea level"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "elevation_uncertainty",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "stem_lat",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "stem_lon",
+      "description": null
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "individual",
+      "contentUrl": null,
+      "fileFormat": "csv"
+    }
+  ]
+}

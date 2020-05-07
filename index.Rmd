@@ -1,0 +1,65 @@
+---
+title: "NEON Wood Survey Analysis"
+author: "Flora Whiting-Fawcett"
+date: "2020-05-07"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: darkly
+    highlight: kate
+---
+
+# Background: Into the woods
+
+We looked at NEON woods survey data, focusing on **stem diameter**, **height**, and the **form** of the vegetation.
+
+
+
+# Analysis
+## Aims
+We wanted to see if there was a relationship between stem diameter and height
+
+## Coding
+```{r, echo = FALSE}
+knitr::read_chunk(here::here("analysis.R")) 
+```
+
+```{r analysis-setup, echo = TRUE}
+
+```
+
+```{r analysis-filter-data}
+
+```
+
+```{r analysis-set-factor-levels}
+
+```
+
+```{r analysis-fig1-barplot}
+
+```
+
+
+```{r analysis-fig2-violinplots}
+
+```
+
+```{r analysis-lm-overall}
+
+```
+
+```{r analysis-lm-fig3-overall}
+
+```
+
+```{r analysis-lm-growth}
+
+```
+
+```{r analysis-lm-fig4-growth}
+
+```
+
+
